@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task simple </title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+    }
+    .parent{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20em;
+        justify-content: space-evenly;
+
+       
+    }
+    .main{
+        height: 350px;
+        width: 350px;
+        border: 2px solid red;
+        display: grid;
+        place-items: center;
+     }
+     .minibox{
+        height: 75px;
+        width: 100px;
+        border-radius: 8px;
+        border: 2px solid rgb(228, 110, 110);
+        display: grid;
+        place-items: center;
+
+     }
+</style>
+<body>
+    <div class="parent">
+    <div class="main"><div class="minibox">box1</div></div>
+    <div class="main"><div class="minibox">box2</div></div>
+    <div class="main"><div class="minibox">box3</div></div>
+    <div class="main"><div class="minibox">box4</div></div>
+   
+    </div>
+</body>
+</html>
