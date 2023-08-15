@@ -357,9 +357,10 @@
 
 // }
 // findanagarams()
-let  a= prompt("enter your number:")
-let b = prompt("enter yout number :");
-let c  = parseInt(a)+ parseInt(b);
-let d = a*b;
-let e = b-a;
- console.log(e,c,d);
+// let  a= prompt("enter your number:")
+// let b = prompt("enter yout number :");
+// let c  = parseInt(a)+ parseInt(b);
+// let d = a*b;
+// let e = b-a;
+//  console.log(e,c,d);
+
