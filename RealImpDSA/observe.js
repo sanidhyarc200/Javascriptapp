@@ -364,3 +364,22 @@
 // let e = b-a;
 //  console.log(e,c,d);
 
+
+// pattern
+// for(let i = 5 ; i <= 1 ;i--){
+//     let row = ""
+//     for (let j = 1; j <= i; j++){
+//     row += "*";
+//     }
+  
+//     console.log(row)
+
+// }
+
+// let arr = [1,5,9,6,4]
+// function secondlargest(arr,k){
+//     arr.sort((a,b)=>b-a)
+    
+//     return arr[k-1]
+// }
+// console.log(secondlargest(arr,2))
