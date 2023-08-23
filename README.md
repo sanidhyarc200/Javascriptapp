@@ -12,3 +12,9 @@ Welcome to the JavaScript Problem Solving and Advanced Topics repository! In thi
 
 - 
 ## Will keep on updating This Readme
+
+
+just for updates 
+git add .
+git commit -m " update 1"
+git push

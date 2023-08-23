@@ -73,6 +73,21 @@
 // console.log(sumofsumelems(arr,4))
 
 
+// let arr = [1,2,3,2,5,9]
+// let b = 4;
+
+// let sum = 0;
+// function sumofsumelems(arr, b){
+//     for(let i = 0 ; i<= arr.length ; i++){
+//         if(arr[i] < b+1){
+//             sum += arr[i];
+//         }
+
+//     }
+//     return sum;
+// }
+// console.log(sumofsumelems(arr,4))
+
 
 // brackets are balanced
 
@@ -96,6 +111,24 @@
 // }
 // console.log(bracketsarebalanced("{(}"))
 
+// function arebracketsbalanced(input){
+//     let Openbracketscount = 0;
+//     let Closedbracketscount = 0;
+//     for(let char of input ){
+//         if(char === "{" || char === "[" || char === "("){
+//             Openbracketscount++;
+//         }
+//         if(char === "}" || char === "]" || char === ")"){
+//             Closedbracketscount++;
+
+//         }
+//         if(Openbracketscount === Closedbracketscount){
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+// console.log(arebracketsbalanced("{"));
 
 
 
@@ -383,3 +416,65 @@
 //     return arr[k-1]
 // }
 // console.log(secondlargest(arr,2))
+
+
+// palindrome
+// let num = 151
+
+// function checkpalindrom(num){
+//    return num ===  +num.toString().split("").reverse().join('')
+       
+
+// }
+// console.log(checkpalindrom(num));
+// 
+
+
+
+
+// fibonnaci series 
+
+
+
+// function printCountdownNumbers(rows) {
+//     for (let i = rows; i >= 1; i--) {
+//       let row = '';
+//       for (let j = i; j >= 1; j--) {
+//         row += j;
+//       }
+//       console.log(row);
+//     }
+//   }
+  
+//   printCountdownNumbers(5);
+// var a;
+// console.log(a)
+// var a = 10;
+
+
+
+// valid anagram
+// let str1 = "sani"
+// let str2 = "nai"
+
+// function Isanagaram(){
+//     if(str1.length !== str2.length){
+//         return false;
+
+//     }
+
+//     let obj1 ={};
+
+//     for(char of str1){
+//         obj1[char] = (obj1[char] || 0) +1
+//     }
+//     for(char of str2){
+//         if(!obj1[char]){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// console.log(Isanagaram());
+
