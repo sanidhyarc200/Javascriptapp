@@ -478,3 +478,14 @@
 
 // console.log(Isanagaram());
 
+// plaindrome str
+
+// let str1 = "nana"
+
+// function ispalindrom(){
+
+//     for(let i = str1.length; i>= 0 ; i--){
+        
+            
+//     }
+// }
